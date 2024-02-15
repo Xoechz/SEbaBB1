@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"alefragnani.pascal-formatter",
+			"alefragnani.pascal",
+			"webfreak.debug",
+			"emmanuelbeziat.vscode-great-icons",
+			"ansonyeung.pascal-language-basics",
+			"discretegames.f5anything"
+		]
+	}
+}
