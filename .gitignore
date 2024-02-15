@@ -1,52 +1,42 @@
-# Prerequisites
-*.d
+# Created by https://www.toptal.com/developers/gitignore/api/linux,dotnetcore,freepascal
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,dotnetcore,freepascal
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+### FreePascal ###
+*.lps
+*.compiled
+*.[oa]
+*.ppu
+*.rst
+*.cgi
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.log
+*.bak*
+fp.ini
+fp.cfg
+fp.dsk
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+### Linux ###
+*~
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# End of https://www.toptal.com/developers/gitignore/api/linux,dotnetcore,freepascal
